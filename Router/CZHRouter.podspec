@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = 'CZHRouter'
-  spec.version      = '0.0.1'
+  spec.version      = 'v0.0.1'
   spec.summary      = '这是一个很轻便型的iOS应用路由器库'
   spec.homepage     = 'https://github.com/JakeTorres/CZHRouter'
   spec.license      = 'MIT'

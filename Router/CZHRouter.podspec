@@ -10,6 +10,6 @@ Pod::Spec.new do |spec|
 
   spec.platform     = :ios, '10.0'
   spec.source       = { :git => 'https://github.com/JakeTorres/CZHRouter.git', :commit => '8cc0cc0606fed2b2e23a5c2aaf80e8f26b8062ff'}
-  spec.source_files  = 'Sources/*.swift,h'
+  spec.source_files  = 'Source/*.swift'
 
 end

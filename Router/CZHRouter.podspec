@@ -7,9 +7,9 @@ Pod::Spec.new do |spec|
   spec.homepage     = 'https://github.com/JakeTorres/CZHRouter'
   spec.license      = 'MIT'
   spec.author       = { 'Jakechen' => 'czhstudy@yeah.net' }
-
-  spec.platform     = :ios, '10.0'
+  spec.swift_versions = ['5.1', '5.2']
+  spec.platform     = :ios, '13.0'
   spec.source       = { :git => 'https://github.com/JakeTorres/CZHRouter.git', :tag => spec.version}
-  spec.source_files  = 'Source/*.swift'
+  spec.source_files  = 'Router/Router/*.swift'
 
 end

@@ -8,6 +8,8 @@
 
 import UIKit
 
+let schemeUrlKey: String = "czh.scheme.url.key"
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -32,6 +34,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
 
+    func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
+        print("sourceAppaplication:\(sourceApplication ?? "")")
+        print("sourceAppaplication:\(url.scheme ?? "")")
+        print("URL scheme:\(url.query ?? "")")
+        if sourceApplication == schemeUrlKey {
+            return true
+        } else {
+            return false
+        }
+    }
 
 }
 

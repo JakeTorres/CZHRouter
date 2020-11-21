@@ -15,6 +15,7 @@
 		4657480E24F7EAF500F3F7F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4657480C24F7EAF500F3F7F0 /* LaunchScreen.storyboard */; };
 		4657481924F7EAF500F3F7F0 /* RouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4657481824F7EAF500F3F7F0 /* RouterTests.swift */; };
 		4657482424F7EAF500F3F7F0 /* RouterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4657482324F7EAF500F3F7F0 /* RouterUITests.swift */; };
+		46A5E0BC256946E6000F4A37 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A5E0BB256946E6000F4A37 /* Manager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4657481F24F7EAF500F3F7F0 /* RouterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RouterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4657482324F7EAF500F3F7F0 /* RouterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterUITests.swift; sourceTree = "<group>"; };
 		4657482524F7EAF500F3F7F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46A5E0BB256946E6000F4A37 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				4657480124F7EAF400F3F7F0 /* AppDelegate.swift */,
 				4657480324F7EAF400F3F7F0 /* SceneDelegate.swift */,
 				4657480524F7EAF400F3F7F0 /* ViewController.swift */,
+				46A5E0BB256946E6000F4A37 /* Manager.swift */,
 				4657480724F7EAF400F3F7F0 /* Main.storyboard */,
 				4657480A24F7EAF500F3F7F0 /* Assets.xcassets */,
 				4657480C24F7EAF500F3F7F0 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 				4657480624F7EAF400F3F7F0 /* ViewController.swift in Sources */,
 				4657480224F7EAF400F3F7F0 /* AppDelegate.swift in Sources */,
 				4657480424F7EAF400F3F7F0 /* SceneDelegate.swift in Sources */,
+				46A5E0BC256946E6000F4A37 /* Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,7 +439,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZALE5ESYW;
 				INFOPLIST_FILE = Router/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +458,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZALE5ESYW;
 				INFOPLIST_FILE = Router/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
